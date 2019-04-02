@@ -12,7 +12,7 @@ A Video Player Application for Streaming Frames from Disk for Pixel-Accurate Ren
   - Memory Mapped Raw (Uncompressed) BGRA Texture File Streaming From Disk
   - Dedicated Threads separate from the rendering thread for asynchronous streaming and texture upload using Pixel Buffer Objects (PBOs) and OpenGL 4.2 Persistent-Mapped Buffers
   - A Win32 Circular Buffer Implementation for texture handle synchronization between threads
-  - Quad VBO Texture Rendering
+  - OpenGL ES 2.0/GLSL 2.1 Compatible Shaders for Quad VBO Texture Rendering
   
 ### Usage
 
