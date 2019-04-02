@@ -20,5 +20,5 @@ A Video Player for Streaming Frames from Disk for Pixel-Accurate Rendering to Hi
   - Enable/Disable Vsync [V]
   - Toggle Window Border [B]
   - Toggle Fullscreen Mode [F]
-  - Open File Dialog to load uncompressed .bgra file containing Uncompressed Video frames in BGRA format for playback
+  - Open File Dialog to load .bgra file containing Uncompressed Video frames in BGRA format for playback
   - Quit [Esc]
