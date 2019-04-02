@@ -2,7 +2,7 @@
 
 ## AsyncVideoPlayer
 
-A Video Player Application for Streaming Frames from Disk for Pixel-Accurate Rendering to High Resolution Display Outputs with Maximum Hardware Performance and Minimal Throughput Latency
+A Video Player for Streaming Frames from Disk for Pixel-Accurate Rendering to High Resolution Display Outputs with Maximum Hardware Performance and Minimal Throughput Latency
 
 ### Features
 
