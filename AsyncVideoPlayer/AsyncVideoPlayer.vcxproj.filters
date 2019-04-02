@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ImageIO">
+      <UniqueIdentifier>{fef2f95a-ce89-4ad3-8387-65f8eda907db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glPlatform">
+      <UniqueIdentifier>{c220b1e3-501c-4054-ab2f-c9019c3c2073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ea535664-e31f-45b5-9314-e06d1b88aa10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{e2eb3d9b-aaed-4573-be2a-45141e0657a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crPlatform">
+      <UniqueIdentifier>{ba7f6bbe-f034-49a8-9ff3-57694408b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apex_memmove">
+      <UniqueIdentifier>{6b8bd143-08d9-42e0-9a8b-c593d248f319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jrm_image.c">
+      <Filter>ImageIO</Filter>
+    </ClCompile>
+    <ClCompile Include="jrm_raw_image.c">
+      <Filter>ImageIO</Filter>
+    </ClCompile>
+    <ClCompile Include="jrm_circular_buffer.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncVideoPlayer.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="crPlatform\cr_display.c">
+      <Filter>crPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="crPlatform\cr_display_sync.c">
+      <Filter>crPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="apex_memmove.c">
+      <Filter>apex_memmove</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jrm_matrix_math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="stringUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="jrm_byte_utils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="jrm_circular_buffer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="sgi_image.h">
+      <Filter>ImageIO</Filter>
+    </ClInclude>
+    <ClInclude Include="jrm_image.h">
+      <Filter>ImageIO</Filter>
+    </ClInclude>
+    <ClInclude Include="jrm_image_buffer.h">
+      <Filter>ImageIO</Filter>
+    </ClInclude>
+    <ClInclude Include="jrm_raw_image.h">
+      <Filter>ImageIO</Filter>
+    </ClInclude>
+    <ClInclude Include="crgc_gl_ext.h">
+      <Filter>glPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="glLite.h">
+      <Filter>glPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="wglUtils.h">
+      <Filter>glPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="jrm_quad_vbo.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTemplate.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoDialog.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncVideoPlayer.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncVideoPlayerShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncVideoPlayerGUI.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="crPlatform\cr_display.h">
+      <Filter>crPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="crPlatform\cr_display_sync.h">
+      <Filter>crPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="crPlatform\cr_byte_utils.h">
+      <Filter>crPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="crPlatform\cr_time_utils.h">
+      <Filter>crPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="apex_memmove.h">
+      <Filter>apex_memmove</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\jrm_vertex_mesh.es2.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\shaders\jrm_vertex_mesh.es2.vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
