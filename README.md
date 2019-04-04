@@ -9,7 +9,7 @@ A Hardware-Accelerated Video Player for Streaming Frames from Disk for Pixel-Acc
   - Native Win32 Window and WGL OpenGL Context Creation
   - Manual OpenGL function loading 
   - Dedicated Platform Window Event and OpenGL Rendering Threads
-  - Memory Mapped Raw (Uncompressed) BGRA Texture File Streaming From Disk
+  - Memory Mapped Raw (Uncompressed) BGRA Video File Streaming From Disk
   - Dedicated Threads separate from the rendering thread for asynchronous streaming and texture upload using Pixel Buffer Objects (PBOs) and OpenGL 4.2 Persistent-Mapped Buffers
   - A Win32 Circular Buffer Implementation for texture handle synchronization between threads
   - OpenGL ES 2.0/GLSL 2.1 Compatible Shaders for Quad VBO Texture Rendering
